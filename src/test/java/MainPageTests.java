@@ -1,61 +1,27 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class ManePageTests  extends BaseTest{
+import java.util.List;
 
-    @Test
-    public void searchFoxOne() {
-        String input = "restofrest";
-        mainPage.openPage();
-        mainPage.searchByText(input);
-        searchResultPage.waitForPageLoaded();
-        searchResultPage.waitForH1Loaded();
-        if(searchResultPage.getTextFromH1().contains("Найдено по запросу")){
-            searchResultPage.checkH1ElementContainsText(input);
-        }else if(searchResultPage.getTextFromH1().contains("Результаты поиска")){
-            searchResultPage.checkLabelElementContainsText(input);
-        }
+import static org.testng.AssertJUnit.assertTrue;
+
+public class MainPageTests extends BaseTest{
+
+    @Test(priority = 1)
+    public void titleTest() {
+        mainPage.openPage();//мы обращаемся к классу mainPage и вызываем метод открыть страницу
+        String title="≡ Інтернет магазин ФОКСТРОТ | Мережа магазинів побутової техніки та електроніки в Україні";
+        assertions.equalsOfStrings(driver.getTitle(), title);
     }
 
-    @Test
-    public void searchFoxTwo() {
-        String input = "input";
-        mainPage.openPage();
-        mainPage.searchByText(input);
-        searchResultPage.waitForPageLoaded();
-        searchResultPage.waitForH1Loaded();
-        if(searchResultPage.getTextFromH1().contains("Найдено по запросу")){
-            searchResultPage.checkH1ElementContainsText(input);
-        }else if(searchResultPage.getTextFromH1().contains("Результаты поиска")){
-            searchResultPage.checkLabelElementContainsText(input);
-        }
+    @Test(priority = 2)
+    public void locationTest(){
+        mainPage.openPage();//мы обращаемся к классу mainPage и вызываем метод открыть страницу
+        mainPage.acceptCity();//мы обращаемся к классу mainPage и вызываем метод подтвердить местоположение
+        mainPage.changeCity();//мы обращаемся к классу mainPage и вызываем метод мой стандартный до момента ввода необходимого города
+        mainPage.choiceCity("Харків");//мы обращаемся к классу mainPage и вызываем метод кот.принимает город
+
     }
 
-    @Test
-    public void searchFoxThree() {
-        String input = "car";
-        mainPage.openPage();
-        mainPage.searchByText(input);
-        searchResultPage.waitForPageLoaded();
-        searchResultPage.waitForH1Loaded();
-        if(searchResultPage.getTextFromH1().contains("Найдено по запросу")){
-            searchResultPage.checkH1ElementContainsText(input);
-        }else if(searchResultPage.getTextFromH1().contains("Результаты поиска")){
-            searchResultPage.checkLabelElementContainsText(input);
-        }
-    }
-    @Test
-    public void searchFoxFour() {
-        String input = "car";
-        mainPage.openPage();
-        mainPage.searchByText(input);
-        searchResultPage.waitForPageLoaded();
-        searchResultPage.waitForH1Loaded();
-        if(searchResultPage.getTextFromH1().contains("Найдено по запросу")){
-            searchResultPage.checkH1ElementContainsText(input);
-        }else if(searchResultPage.getTextFromH1().contains("Результаты поиска")){
-            searchResultPage.checkLabelElementContainsText(input);
-        }
-        assertions.equalsOfStrings("Strri","svsvvsd");
-    }
 }

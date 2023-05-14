@@ -2,7 +2,7 @@
 <suite name="AllTests Suite">
     <test name="AllTestCases">
         <classes>
-            <class name = "ManePageTests"/>
+            <class name = ""/>
         </classes>
     </test>
 </suite>

@@ -1,24 +1,24 @@
-package pages;
+package Pages;
 
-import functions.ActionClass;
-import functions.Assertions;
-import functions.Elements;
-import functions.Waiters;
+import Functions.AssertionsClass;
+import Functions.ElementsClass;
+import Functions.WaitersClass;
 import org.openqa.selenium.WebDriver;
+import Functions.ActionClass;
 
 public class BasePage {
     protected static WebDriver driver;
-    static Waiters waiters;
+    static WaitersClass waiters;
     static ActionClass action;
-    static Assertions assertions;
-    static Elements elements;
+    static AssertionsClass assertions;
+    static ElementsClass elements;
 
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        waiters = new Waiters(driver);
-        assertions = new Assertions(driver);
+        waiters = new WaitersClass(driver);
+        assertions = new AssertionsClass(driver);
         action = new ActionClass(driver);
-        elements = new Elements(driver);
+        elements = new ElementsClass(driver);
     }
 }
