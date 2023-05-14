@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f166bf02-ea00-4523-9cdf-8402763de435" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/DriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Driver/DriverClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Functions/ActionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions/ActionClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Functions/AssertionsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions/AssertionsClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Functions/ElementsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions/ElementsClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Functions/WaitersClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions/WaitersClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/TestResultListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/TestResultListeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SearchResultPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchResultPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f166bf02-ea00-4523-9cdf-8402763de435" name="Changes" comment="1 commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,8 +153,16 @@
       <workItem from="1684022063389" duration="454000" />
       <workItem from="1684048875837" duration="1290000" />
       <workItem from="1684054951384" duration="1163000" />
-      <workItem from="1684087241387" duration="767000" />
+      <workItem from="1684087241387" duration="1112000" />
     </task>
+    <task id="LOCAL-00001" summary="1 commit">
+      <created>1684090103783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684090103783</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,5 +170,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="1 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 commit" />
   </component>
 </project>
