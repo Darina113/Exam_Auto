@@ -1,5 +1,6 @@
 package Functions;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -24,5 +25,12 @@ public class ActionClass {
 
     public void moveToElementLocation(String xpath){
         actions.moveToElement(elements.findElementByXpath(xpath)).perform();
+    }
+    public void moveToElementLocation(By by){
+        actions.moveToElement(elements.findSingleElement(by)).perform();
+    }
+
+    public void moveToElementLocationAndClick(By by){
+        actions.moveToElement(elements.findSingleElement(by)).click().perform();
     }
 }

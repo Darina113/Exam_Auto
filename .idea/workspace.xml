@@ -4,7 +4,105 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f166bf02-ea00-4523-9cdf-8402763de435" name="Changes" comment="1 commit" />
+    <list default="true" id="f166bf02-ea00-4523-9cdf-8402763de435" name="Changes" comment="1 commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230514.230827.701.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230514.230931.722.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230514.231210.312.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.012911.104.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.013407.407.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.013910.167.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.014146.087.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.014302.265.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.014738.584.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.014933.123.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.015025.919.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.015135.482.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.154412.025.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.154544.560.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.154657.697.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.154859.572.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.155115.322.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.155328.365.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.155431.078.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.155801.779.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.160657.747.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.160844.997.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.162133.221.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.162321.162.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.162851.344.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.163013.549.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.163642.561.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.163851.152.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.164020.822.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.164336.737.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.164614.229.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.164702.998.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.164843.345.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.164922.325.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.165020.076.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.165254.142.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.165448.161.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.170122.868.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.182059.557.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.182146.451.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.190845.899.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.191026.864.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.213053.670.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.213626.970.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.213804.913.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.214006.593.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.214120.423.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.215923.850.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.220623.348.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.221201.235.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.221851.178.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.221925.842.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.224912.894.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.225323.307.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.225624.316.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.225813.784.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.225959.568.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.230213.078.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.230322.522.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.235541.260.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230515.235813.197.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230516.124154.124.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230516.142156.003.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230516.142641.544.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230516.142903.333.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230516.152115.874.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230516.171335.086.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230516.175220.202.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230516.175632.773.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230516.180141.095.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230516.181409.373.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230516.191414.432.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230517.130421.917.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230517.130724.031.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230517.130905.111.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230517.130954.293.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230517.132211.150.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230517.132335.496.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230517.132616.590.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230517.132738.899.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20230517.132951.490.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/LaptopPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LaptopPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TVPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/DriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Driver/DriverClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Functions/ActionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions/ActionClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Functions/AssertionsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions/AssertionsClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Functions/ElementsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions/ElementsClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Functions/WaitersClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Functions/WaitersClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/TVPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SearchResultPageTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +144,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/darina/IdeaProjects/Exam_Auto/src/test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/darina/IdeaProjects/Exam_Auto&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -59,6 +157,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/main/java/Pages" />
     </key>
@@ -68,23 +167,12 @@
       <recent name="Utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MainPageTests.locationTest">
-    <configuration name="MainPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TVPageTest.fromCheapToExpensiveTVTest">
+    <configuration name="LaptopPageTest.noLaptopIncompatibleFilters" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Exam_Auto" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPageTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPageTests.locationTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Exam_Auto" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPageTests" />
-      <option name="METHOD_NAME" value="locationTest" />
+      <option name="MAIN_CLASS_NAME" value="LaptopPageTest" />
+      <option name="METHOD_NAME" value="noLaptopIncompatibleFilters" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -92,11 +180,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTests.searchFoxOne" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TVPageTest.changePricePerMonthTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Exam_Auto" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPageTests" />
-      <option name="METHOD_NAME" value="searchFoxOne" />
+      <option name="MAIN_CLASS_NAME" value="TVPageTest" />
+      <option name="METHOD_NAME" value="changePricePerMonthTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,11 +192,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTests.titleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TVPageTest.compareTv" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Exam_Auto" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPageTests" />
-      <option name="METHOD_NAME" value="titleTest" />
+      <option name="MAIN_CLASS_NAME" value="TVPageTest" />
+      <option name="METHOD_NAME" value="compareTv" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,11 +204,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchResultPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TVPageTest.fromCheapToExpensiveTVTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Exam_Auto" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchResultPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="TVPageTest" />
+      <option name="METHOD_NAME" value="fromCheapToExpensiveTVTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TVPageTest.titleTVPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Exam_Auto" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TVPageTest" />
+      <option name="METHOD_NAME" value="titleTVPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -129,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MainPageTests.locationTest" />
-        <item itemvalue="TestNG.MainPageTests" />
-        <item itemvalue="TestNG.MainPageTests.titleTest" />
-        <item itemvalue="TestNG.SearchResultPageTest" />
-        <item itemvalue="TestNG.MainPageTests.searchFoxOne" />
+        <item itemvalue="TestNG.TVPageTest.fromCheapToExpensiveTVTest" />
+        <item itemvalue="TestNG.TVPageTest.changePricePerMonthTest" />
+        <item itemvalue="TestNG.TVPageTest.compareTv" />
+        <item itemvalue="TestNG.TVPageTest.titleTVPageTest" />
+        <item itemvalue="TestNG.LaptopPageTest.noLaptopIncompatibleFilters" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +254,14 @@
       <workItem from="1684022063389" duration="454000" />
       <workItem from="1684048875837" duration="1290000" />
       <workItem from="1684054951384" duration="1163000" />
-      <workItem from="1684087241387" duration="1112000" />
+      <workItem from="1684087241387" duration="2223000" />
+      <workItem from="1684094729984" duration="3229000" />
+      <workItem from="1684153285882" duration="2075000" />
+      <workItem from="1684156087439" duration="21109000" />
+      <workItem from="1684228428439" duration="17831000" />
+      <workItem from="1684317223179" duration="2085000" />
+      <workItem from="1684319766601" duration="7441000" />
+      <workItem from="1684351548875" duration="1393000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1684090103783</created>
@@ -162,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684090103783</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1 commit">
+      <created>1684090377521</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684090377521</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

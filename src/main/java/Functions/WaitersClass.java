@@ -165,6 +165,9 @@ public class WaitersClass {
     public void waitvisabilityOFWebelement(By by){
         waitForFunction(ExpectedConditions.visibilityOf(driver.findElement(by)),EXPLICITY_WAIT);
     }
+    public void waitTitleContainsText(String text) {
+        waitForFunction(ExpectedConditions.titleContains(text), EXPLICITY_WAIT);
+    }
 
 
 }

@@ -1,5 +1,6 @@
 package Functions;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -28,10 +29,17 @@ public class AssertionsClass {
         assertEquals(elements.getTextFromElementXpath(xpathOfElement),expectedString,
                 "Я ожидал получить "+expectedString+". А получил "+ elements.getTextFromElementXpath(xpathOfElement));
     }
+    public void equalsOfElementAndLabelText(By xpathOfElement, String expectedString){
+        assertEquals(elements.getTextFromElementBy(xpathOfElement),expectedString,
+                "Я ожидала получить "+expectedString+". А получила "+ elements.getTextFromElementBy(xpathOfElement));
+    }
 
     public void equalsOfStrings(String actualString, String expectedString){
         assertEquals(actualString,expectedString,
                 "Я ожидала получить "+expectedString+". А получила "+ actualString);
+    }
+    public void trueElementcount(){
+
     }
 
 }

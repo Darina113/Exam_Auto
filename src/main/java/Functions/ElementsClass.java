@@ -28,6 +28,7 @@ public class ElementsClass {
             return null;
         }
 
+
         public WebElement findElementByXpath(String xpath){//стринга и есть наш локатор
             try {
                 waiters.waitvisabilityOFWebelement(By.xpath(xpath));
@@ -57,6 +58,8 @@ public class ElementsClass {
             logger.info("getting text from element "+locator.toString());
             return  findSingleElement(locator).getText();
         }
+
+
         public void clickOnElementByXpath(String xpath){
             findElementByXpath(xpath).click();
         }
@@ -71,6 +74,11 @@ public class ElementsClass {
             findSingleElement(locator).sendKeys(text);
 
         }
+    public void sendKeysToElementByAndClick(By locator,String text){
+        findSingleElement(locator).sendKeys(text);
+        findSingleElement(locator).sendKeys(Keys.ENTER);
+
+    }
 
 
     }

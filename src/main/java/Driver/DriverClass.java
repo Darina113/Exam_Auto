@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 public class DriverClass {
     static final Logger logger = LoggerFactory.getLogger(DriverClass.class);
-    private static final long IMPLICITY_WAIT= 20l;
+    private static final long IMPLICITY_WAIT= 10l;
     static WaitersClass waiters;
     static ActionClass action;
     static AssertionsClass assertions;
