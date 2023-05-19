@@ -28,13 +28,13 @@ public class TVPage extends BasePage{
 
     }
 
-    private static class Label{
-        private final static String resultText = "Apple iPhone у Дніпрі";
+    private static class Text{
+        private final static String titleNameTV="Телевізори у Дніпрі купити в Фокстрот";
 
     }
 
-    public void waitForPageLoaded(){
-        waiters.waitTitleContainsText(Label.resultText);
+    public void checkNameOfPage(){
+        assertions.equalsOfStrings(driver.getTitle(), Text.titleNameTV);
     }
     public void waitForH1Loaded(){
         elements.findSingleElement(Locators.h1Element);
@@ -50,10 +50,7 @@ public class TVPage extends BasePage{
         String resultOfReach = elements.getTextFromElementBy(Locators.h1Element).replace("Apple  ", "").replace(" у Дніпрі","");
         assertions.equalsOfStrings(resultOfReach, ""+input+"");
     }
-    public void checkLabelElementContainsText(String input){
-        String resultOfSearch = elements.getTextFromElementXpath(Label.resultText);
-        assertions.equalsOfStrings(resultOfSearch, ""+input+"");
-    }
+
     public void clickOnIcon(){
         elements.clickOnElementBy(Locators.icon);
     }
@@ -61,16 +58,12 @@ public class TVPage extends BasePage{
         elements.clickOnElementBy(by);
     }
     public void addTwoTVtoCompare(){
-        waiters.waitvisabilityOFWebelement(Locators.firstTVtoCompare);
         action.moveToElementLocation(Locators.firstTVtoCompare);
-        waiters.waitvisabilityOFWebelement(Locators.buttonToCompareFirst);
         action.moveToElementLocation(Locators.buttonToCompareFirst);
         elements.clickOnElementBy(Locators.buttonToCompareFirst);
         waiters.waitvisabilityOFWebelement(Locators.buttonToCompareFirstField);
 
-        waiters.waitvisabilityOFWebelement(Locators.secondTVtoCompare);
         action.moveToElementLocation(Locators.secondTVtoCompare);
-        waiters.waitvisabilityOFWebelement(Locators.buttonToCompareSecond);
         action.moveToElementLocation(Locators.buttonToCompareSecond);
         elements.clickOnElementBy(Locators.buttonToCompareSecond);
         waiters.waitvisabilityOFWebelement(Locators.buttonToCompareSecondField);
@@ -84,13 +77,11 @@ public class TVPage extends BasePage{
 
     }
     public void switchToPricePerMonth(){
-        waiters.waitvisabilityOFWebelement(Locators.pricePerMonth);
-        elements.clickOnElementBy(Locators.pricePerMonth);
+        elements.clickOnElementBy(Locators.pricePerMonth);//ожидания добавила в clickOnElementBy
         waiters.waitvisabilityOFWebelement(Locators.pricePerMonthFor1TV);
     }
     public void switchToFirstCheapToExpensiveProducts(){
-        waiters.waitvisabilityOFWebelement(Locators.filterFromCheapToExpensive);
-        elements.clickOnElementBy(Locators.filterFromCheapToExpensive);
+        elements.clickOnElementBy(Locators.filterFromCheapToExpensive);//ожидания добавила в clickOnElementBy
         waiters.waitvisabilityOFWebelement(Locators.theCheapestTV);
     }
 

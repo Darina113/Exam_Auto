@@ -20,7 +20,7 @@ public class ElementsClass {
         public WebElement findSingleElement(By by){
             try {
                 waiters.waitvisabilityOFWebelement(by);
-                logger.info("trying to find element by locator "+by.toString());
+                logger.info("trying to find element "+by.toString());
                 return driver.findElement(by);
             }catch (NoSuchElementException e){
                 e.printStackTrace();
@@ -32,54 +32,42 @@ public class ElementsClass {
         public WebElement findElementByXpath(String xpath){//стринга и есть наш локатор
             try {
                 waiters.waitvisabilityOFWebelement(By.xpath(xpath));
+                logger.info("trying to find element "+xpath.toString());
                 return driver.findElement(By.xpath(xpath));
             }catch (NoSuchElementException e){
                 e.printStackTrace();
             }
             return null;
         }
-        public boolean isElementDisplayed(String xpath){
-            return findElementByXpath(xpath).isDisplayed();
+         public boolean isElementDisplayed(By by){
+            logger.info("trying to find element and see it is Displayed "+by.toString());
+            return findSingleElement(by).isDisplayed();
         }
-    public boolean isElementDisplayed(By by){
-        return findSingleElement(by).isDisplayed();
-    }
-    public boolean isElementSelected(By by){
-            return findSingleElement(by).isSelected();
-    }
-    public boolean isElementSelected(String locator){
-        return findElementByXpath(locator).isSelected();
-    }
 
-        public String getTextFromElementXpath(String xpath){
-            return  findElementByXpath(xpath).getText();
-        }
-        public String getTextFromElementBy(By locator){
+         public String getTextFromElementBy(By locator){
             logger.info("getting text from element "+locator.toString());
             return  findSingleElement(locator).getText();
-        }
+         }
 
-
-        public void clickOnElementByXpath(String xpath){
-            findElementByXpath(xpath).click();
-        }
-        public void clickOnElementBy(By locators){
+         public void clickOnElementBy(By locators){
+            waiters.waitvisabilityOFWebelement(locators);
             logger.info("clicking on Element "+locators.toString());
             findSingleElement(locators).click();
-        }
-        public void sendKeysToElementWithXpath(String xpath,String text){
-            findElementByXpath(xpath).sendKeys(text);
-        }
-        public void sendKeysToElementBy(By locator,String text){
+         }
+
+         public void sendKeysToElementBy(By locator,String text){
+            logger.info("trying to find element  "+locator.toString());
+            logger.info("typing text to Element "+text.toString());
             findSingleElement(locator).sendKeys(text);
 
-        }
-    public void sendKeysToElementByAndClick(By locator,String text){
+         }
+         public void sendKeysToElementByAndClick(By locator,String text){
+        logger.info("trying to find element  "+locator.toString());
+        logger.info("typing text to Element  "+text.toString());
         findSingleElement(locator).sendKeys(text);
         findSingleElement(locator).sendKeys(Keys.ENTER);
 
-    }
+        }
 
-
-    }
+}
 

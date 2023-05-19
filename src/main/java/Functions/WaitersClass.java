@@ -3,11 +3,14 @@ package Functions;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
 import java.util.function.Function;
 
 public class WaitersClass {
+    static final Logger logger = LoggerFactory.getLogger(WaitersClass.class);
     private final WebDriver driver;// ожидания работают с драйвером поэтому создадим драйвер
 
     //далее создадим конструктор класса и его принимающие параметры (Driver)
@@ -122,6 +125,7 @@ public class WaitersClass {
     //9 visibilityOfElementLocated() -  ожидание видимости элемента (работает только по локатору)
     // НЕЛЬЗЯ ПЕРЕГРУЗИТЬ
     public void waitVisibilityOfElementLocated(By by){
+        logger.info("trying to wait element "+by.toString());
         waitForFunction(ExpectedConditions.visibilityOfElementLocated(by),EXPLICITY_WAIT);
     }
     // добавляю в метод waitvisibilityOfElementLocated  возвращаемый тип данных WebElement
@@ -163,6 +167,7 @@ public class WaitersClass {
     }
     // перегружаем метод waitvisabilityOFWebelement()
     public void waitvisabilityOFWebelement(By by){
+        logger.info("trying to wait element "+by.toString());
         waitForFunction(ExpectedConditions.visibilityOf(driver.findElement(by)),EXPLICITY_WAIT);
     }
     public void waitTitleContainsText(String text) {
